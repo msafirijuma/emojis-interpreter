@@ -1,15 +1,13 @@
 import React from "react";
 import "./bootstrap/bootstrap.min.css"
-import Expense from "./Expense"
+import EmojisInterpreter from "./EmojisInterpreter"
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Expense />
-      </>
-    )
-  }
+function App() {
+  return (
+    <>
+      <EmojisInterpreter />
+    </>
+  )
 }
 
 export default App
